@@ -25,7 +25,7 @@ install:
 
 script:
   - pipenv run flake8 .
-# - pipenv run pytest --cov=pyprodelete
+  - pipenv run pytest #--cov=pyprodelete
 
 # after_success:
 #  - pipenv run codecov
