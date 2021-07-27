@@ -72,7 +72,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pypro.wsgi.application'
 
-#Configuração Django Debug Tollbar
+# Configuração Django Debug Tollbar
 
 INTERNAL_IPS = config('INTERNAL_IPS', cast=Csv(), default='127.0.0.1')
 
