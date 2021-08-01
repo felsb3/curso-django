@@ -18,7 +18,7 @@ def test_titulo_video(resp):
 
 
 def test_conteudo_video(resp):
-    assert_contains(resp, 'iframe width="727" height="409" src="https://www.youtube.com/embed/ipgrkrNCBzA"')
+    assert_contains(resp, 'iframe src="https://www.youtube.com/embed/ipgrkrNCBzA"')
 
 # def test_aperitivo_link(resp):
 #   assert_contains(resp, f'href="{reverse("aperitivo/video.html")}"')
