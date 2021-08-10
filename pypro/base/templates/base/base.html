@@ -28,6 +28,18 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id= "navbarDropdown" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            Módulos
+          </a>
+          <div class="dropdown-menu" arial-labelledby="navbarDropdow">
+            {% for modulo in MODULOS %}
+            <a class="dropdown-item" href="#">{{modulo.titulo}}</a>
+            <div class="dropdown-divider"></div>
+            {% endfor %}
+          </div>
+        </li>
     </ul>
 	  <a href="https://twitter.com/felsb3?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @felsb3</a>
 	  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
