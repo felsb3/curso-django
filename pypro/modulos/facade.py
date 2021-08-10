@@ -3,7 +3,7 @@ from typing import List
 from pypro.modulos.models import Modulo
 
 
-def listar_modulos_ordenado()-> List[Modulo]:
+def listar_modulos_ordenado() -> List[Modulo]:
     """
     Lista módulos ordenados por títulos
     :return:
