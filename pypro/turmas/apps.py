@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ModulosConfig(AppConfig):
+class TurmasConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'pypro.modulos'
+    name = 'pypro.turmas'
