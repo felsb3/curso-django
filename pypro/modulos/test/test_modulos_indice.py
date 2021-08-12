@@ -26,6 +26,7 @@ def resp(client, modulos, aulas):
     resp = client.get(reverse('modulos:indice'))
     return resp
 
+
 def test_indice_disponivel(resp):
     assert resp.status_code == 200
 
@@ -50,6 +51,6 @@ def test_aulas_titulos(resp, aulas: List[Aula]):
         assert_contains(resp, aula.titulo)
 
 
-def test_aulas_Url(resp, aulas: List[Aula]):
+def test_aulas_url(resp, aulas: List[Aula]):
     for aula in aulas:
         assert_contains(resp, aula.get_absolute_url())
