@@ -64,7 +64,5 @@ def test_botao_sair_disponivel(resp_home_com_usuario_logado):
     assert_contains(resp_home_com_usuario_logado, 'Sair')
 
 
-
 def test_nome_usuario_logado_disponivel(resp_home_com_usuario_logado, usuario_logado):
     assert_contains(resp_home_com_usuario_logado, usuario_logado.first_name)
-
