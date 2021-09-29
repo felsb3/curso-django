@@ -15,6 +15,7 @@ import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+# Verificar alterações https://github.com/pythonprobr/pythonpro-website/pull/4093/commits/b736db5d3b3024194fb7d68114681f929e99bfe0
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
